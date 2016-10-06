@@ -1,0 +1,14 @@
+.intercom-form input[type='text'], .intercom-form input[type='email'], .intercom-form textarea{
+	width:100%;
+}
+.intercom-form textarea {height:200px;}
+
+
+.intercom-form .hidden {display:none;}
+.intercom-form .message {
+	margin:2em 0.5em 1em;
+	padding:0.2em 1em;
+	border:2px solid #398F14;
+}
+
+.intercom-form .message.error {border: 2px solid #ffa500;}
